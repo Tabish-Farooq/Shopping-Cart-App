@@ -4,7 +4,7 @@ import HomeScreen from './android/src/screens/HomeScreen'
 
 const App = () => {
   return (
-    <View>
+    <View style={{flex:1}}>
       <StatusBar backgroundColor={'#4169E1'}/>
       <HomeScreen/>
     </View>
